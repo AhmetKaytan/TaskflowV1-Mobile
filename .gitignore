@@ -1,0 +1,68 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# IDEs and editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.history/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+.flutter-automation/
+.packages
+.flutter_tool_state
+
+# Flutter generated files
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+
+# Android / Gradle
+**/.gradle/
+**/local.properties
+**/captures/
+**/GeneratedPluginRegistrant.java
+**/.cxx/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# Android signing material - never commit private signing files
+**/key.properties
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.pem
+
+# iOS generated / machine-specific files
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/DerivedData/
+**/ios/Runner.xcworkspace/xcuserdata/
+**/ios/Runner.xcodeproj/xcuserdata/
+
+# macOS / Windows generated files
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/ephemeral/
